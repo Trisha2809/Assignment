@@ -10,7 +10,7 @@ describe('User Registration', () => {
 
        // enter name and email id and click signup button
        cy.get('[data-qa="signup-name"]').click().type('Testuser')
-       cy.get('[data-qa="signup-email"]').click().type('Testuser9999@abc.com')
+       cy.get('[data-qa="signup-email"]').click().type('Testuser10708@abc.com')
        cy.get('[data-qa="signup-button"]').click()
 
        // registration details page is visible
